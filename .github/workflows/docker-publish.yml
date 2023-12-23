@@ -32,4 +32,4 @@ jobs:
           context: .
           file: ./DockerFile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/library_backend:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/librarybackend:latest
